@@ -4,9 +4,10 @@
 <body>
 <p id="demo"></p>
 <script>
-var CountdownDate ("May 1, 2022 12:00");
-var x = setInterval (function() {
-var now = new Date() .getTime();
+var CountdownDate = new Date ("May 1, 2022 12:00").getTime();
+var x = setInterval (function()) {
+
+var now = new Date().getTime();
 var distance = countdownDate - now;
 
 var days = Math.floor (distance / (1000 * 60 * 60 * 24));
