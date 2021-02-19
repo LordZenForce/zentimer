@@ -8,7 +8,7 @@ var CountdownDate = new Date ("May 1, 2022 12:00").getTime();
 var x = setInterval (function() {
 
 var now = new Date().getTime();
-var distance = countdownDate - now;
+var distance = CountdownDate - now;
 
 var days = Math.floor (distance / (1000 * 60 * 60 * 24));
 var hours = Math.floor (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60);
